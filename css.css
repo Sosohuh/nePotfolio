@@ -2,6 +2,11 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
+    background: url("https://i.pinimg.com/originals/a7/8f/55/a78f557393df87287513e3c97b1635a6.gif");
+    background-repeat: none;
+    background-size: 100%;
+    z-index: -2;
+    position: absolute;
 }
 
 body {
@@ -18,7 +23,7 @@ header {
 
 .content {
     width: 100%;
-    margin: 4em auto;
+    margin: 3em auto;
     font-size: 20px;
     line-height: 30px;
     text-align: justify;
@@ -32,6 +37,19 @@ header {
     color: white;
     font-size: xx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-name: EsonaGilikidi;
+    animation-duration: 3s;
+}
+@keyframes EsonaGilikidi {
+    0% {color: rgb(250, 31, 31);}
+    12.5% {color: rgb(0, 247, 255);}
+    25% {color: yellow;}
+    37.% {color: peru;}
+    50% {color: rgb(0, 128, 0);}
+    62.5% {color: brown;}
+    75% {color: rgb(240, 37, 196);}
+    87.5% {color: chartreuse;}
+    100% {color: blue;}
 }
 
 nav {
@@ -76,8 +94,12 @@ li a:hover {
   }
 
   .footer{
-      padding-top: 19cm;
+      padding-top: 15cm;
   }
-  img {
-      float: right;
-  }
+  .AboutTwo {
+    position: absolute;
+    left: 70px;
+    top: 74%;
+    z-index: -1;
+  }  
+  #
